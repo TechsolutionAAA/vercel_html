@@ -17,7 +17,7 @@
     width: 2560px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 678px) {
     .main {
         width: 100%;
     }
@@ -30,7 +30,7 @@
     align-items: center;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 678px) {
     .header {
         margin: 30px 34.44px 38.97px 28.96px;
     }
@@ -46,7 +46,7 @@
     height: 54.4px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 678px) {
     .logo>svg {
         width: 31.03px;
         height: 31.85px;
@@ -59,7 +59,7 @@
     font-weight: 900;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 678px) {
     .logo>p {
         font-size: 30px;
     }
@@ -70,7 +70,7 @@
     display: none;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 678px) {
     .hidden_menu {
         display: flex;
     }
@@ -93,7 +93,7 @@
     margin-left: 15%;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 678px) {
     .menu_list {
         display: none;
     }
@@ -126,7 +126,7 @@
     height: 30.5px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 678px) {
     .image {
         width: 21.27px;
         height: 23.63px;
@@ -155,7 +155,7 @@
     align-items: center;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 678px) {
     .content_top {
         background-position-y: -85px;
         height: 387px;
@@ -174,7 +174,7 @@
     display: none;
 }
 
-@media screen and (min-width: 375px) and (max-width: 1920px) {
+@media screen and (min-width: 678px) and (max-width: 1920px) {
     .content_top>h2 {
         display: none;
     }
@@ -189,7 +189,7 @@
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 678px) {
     .content_top>h5 {
         font-size: 50px;
         display: block;
@@ -209,7 +209,7 @@
     letter-spacing: 1.75px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 678px) {
     .content_top>p {
         font-size: 16px;
         letter-spacing: 0.8px;
@@ -229,7 +229,7 @@ button {
     margin-top: 55px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 678px) {
     button {
         padding: 11px 41px 10px 40px;
         margin-top: 34px;
@@ -243,7 +243,7 @@ button {
     margin: 119px 191px 172px 192px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 678px) {
     .content_main {
         margin: 47px 38px 83px 35px;
     }
@@ -279,7 +279,7 @@ button {
     display: none;
 }
 
-@media screen and (min-width: 375px) and (max-width: 1920px) {
+@media screen and (min-width: 678px) and (max-width: 1920px) {
     .content_main>h3 {
         display: none;
     }
@@ -294,7 +294,7 @@ button {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 678px) {
     .content_main>h3 {
         display: none;
     }
@@ -322,7 +322,7 @@ button {
     font-family: "Jost_Medium";
 }
 
-@media screen and (min-width: 375px) and (max-width: 1920px) {
+@media screen and (min-width: 678px) and (max-width: 1920px) {
     .content_main>h4 {
         margin-top: 78px;
         margin-bottom: 29px;
@@ -330,7 +330,7 @@ button {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 678px) {
     .content_main>h4 {
         margin-top: 53px;
         margin-bottom: 22px;
@@ -348,13 +348,13 @@ button {
     display: flex;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 678px) {
     .row1 {
         width: fit-content;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 678px) {
     .row {
         flex-direction: column;
         gap: 17px;
@@ -369,7 +369,7 @@ button {
     justify-content: center;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 678px) {
     .col_5 {
         width: 100%;
         height: 302px;
@@ -385,7 +385,7 @@ button {
     overflow: hidden;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 678px) {
     .col_2 {
         width: 73vw;
         height: 345px;
@@ -396,7 +396,7 @@ button {
     gap: 28px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 678px) {
     .gap {
         gap: 15px;
     }
@@ -417,7 +417,7 @@ button {
     font-family: sans-serif;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 678px) {
     .see_button {
         width: 247px;
         height: 30px;
@@ -432,7 +432,7 @@ button {
     justify-content: center;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 678px) {
     .footer {
         padding: 51.6px 115.9px 69.5px 115.9px;
         flex-direction: column;
@@ -445,7 +445,7 @@ button {
     height: fit-content;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 678px) {
     .m_right {
         margin-right: 0px;
         align-items: center;
@@ -460,7 +460,7 @@ button {
 }
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 678px) {
     .f_menu {
         flex-direction: column;
     }
@@ -472,7 +472,7 @@ button {
     margin-right: 251px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 678px) {
     .menu_item {
         margin-right: 0px;
         padding-bottom: 17.5px;
@@ -494,7 +494,7 @@ button {
     margin-bottom: 19px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 678px) {
     .menu_item>p {
         font-size: 18px;
     }
@@ -506,7 +506,7 @@ button {
     flex-direction: column;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 678px) {
     .menu_item>ul {
         display: none;
     }
