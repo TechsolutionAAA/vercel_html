@@ -1,0 +1,522 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Jost";
+    src: url("./Jost-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Jost_Medium";
+    src: url("./Jost-Medium.ttf");
+}
+
+.main {
+    width: 2560px;
+}
+
+@media screen and (max-width: 375px) {
+    .main {
+        width: 100%;
+    }
+}
+
+.header {
+    display: flex;
+    margin: 30px 197px 40px 187.5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 375px) {
+    .header {
+        margin: 30px 34.44px 38.97px 28.96px;
+    }
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo>svg {
+    width: 53.03px;
+    height: 54.4px;
+}
+
+@media screen and (max-width: 375px) {
+    .logo>svg {
+        width: 31.03px;
+        height: 31.85px;
+    }
+}
+
+.logo>p {
+    margin-left: 10px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+@media screen and (max-width: 375px) {
+    .logo>p {
+        font-size: 30px;
+    }
+}
+
+.hidden_menu {
+    flex-direction: column;
+    display: none;
+}
+
+@media screen and (max-width: 375px) {
+    .hidden_menu {
+        display: flex;
+    }
+}
+
+.hidden_menu>span {
+    width: 27px;
+    height: 3px;
+    background-color: #000000;
+    margin-bottom: 9px;
+}
+
+.hidden_menu>span:last-child {
+    margin-bottom: 0px;
+}
+
+.menu_list {
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+}
+
+@media screen and (max-width: 375px) {
+    .menu_list {
+        display: none;
+    }
+}
+
+.menu_list>ul {
+    display: flex;
+    list-style: none;
+    font-family: "Jost";
+    letter-spacing: 1.15px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.menu_list>ul>li {
+    margin-right: 76px;
+}
+
+.menu_list>ul>li:last-child {
+    margin-right: 0;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    width: 27.44px;
+    height: 30.5px;
+}
+
+@media screen and (max-width: 375px) {
+    .image {
+        width: 21.27px;
+        height: 23.63px;
+        margin-left: 50px;
+    }
+}
+
+.image>img {
+    width: 100%;
+    height: 100%;
+}
+
+.content_top {
+    background-image: url('./assets/pexels-photo-4110882.jpeg');
+    background-size: cover;
+    height: 929px;
+    width: 100%;
+    background-position-y: -1450px;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Jost_Medium";
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 375px) {
+    .content_top {
+        background-position-y: -85px;
+        height: 387px;
+    }
+}
+
+.content_top>h2 {
+    font-size: 120px;
+}
+
+.content_top>h4 {
+    display: none;
+}
+
+.content_top>h5 {
+    display: none;
+}
+
+@media screen and (min-width: 375px) and (max-width: 1920px) {
+    .content_top>h2 {
+        display: none;
+    }
+
+    .content_top>h4 {
+        font-size: 100px;
+        display: block;
+    }
+
+    .content_top>h5 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .content_top>h5 {
+        font-size: 50px;
+        display: block;
+    }
+
+    .content_top>h4 {
+        display: none;
+    }
+
+    .content_top>h2 {
+        display: none;
+    }
+}
+
+.content_top>p {
+    font-size: 35px;
+    letter-spacing: 1.75px;
+}
+
+@media screen and (max-width: 375px) {
+    .content_top>p {
+        font-size: 16px;
+        letter-spacing: 0.8px;
+    }
+}
+
+button {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    padding: 15.97px 60px 15.03px 58.13px;
+    font-family: "Jost_Medium";
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    width: fit-content;
+    border: none;
+    margin-top: 55px;
+}
+
+@media screen and (max-width: 375px) {
+    button {
+        padding: 11px 41px 10px 40px;
+        margin-top: 34px;
+        letter-spacing: 0.65px;
+        font-size: 13px;
+    }
+}
+
+.content_main {
+    overflow: hidden;
+    margin: 119px 191px 172px 192px;
+}
+
+@media screen and (max-width: 375px) {
+    .content_main {
+        margin: 47px 38px 83px 35px;
+    }
+}
+
+.content_main>h3 {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Jost_Medium";
+    letter-spacing: -0.8px;
+    color: #000000;
+    margin-bottom: 42px;
+}
+
+.content_main>h6 {
+    font-size: 26px;
+    font-family: "Jost_Medium";
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1.95px;
+    margin-top: 103px;
+    display: none;
+    margin-bottom: 39px;
+}
+
+.content_main>h5 {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Jost_Medium";
+    letter-spacing: -0.8px;
+    color: #000000;
+    margin-bottom: 19px;
+    display: none;
+}
+
+@media screen and (min-width: 375px) and (max-width: 1920px) {
+    .content_main>h3 {
+        display: none;
+    }
+
+    .content_main>h6 {
+        font-size: 30px;
+        display: block;
+    }
+
+    .content_main>h5 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .content_main>h3 {
+        display: none;
+    }
+
+    .content_main>h6 {
+        display: none;
+    }
+
+    .content_main>h5 {
+        display: block;
+        font-size: 16px;
+        letter-spacing: 0px;
+    }
+}
+
+
+.content_main>h4 {
+    font-size: 26px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1.95px;
+    color: #000000;
+    margin-top: 103px;
+    margin-bottom: 39px;
+    font-family: "Jost_Medium";
+}
+
+@media screen and (min-width: 375px) and (max-width: 1920px) {
+    .content_main>h4 {
+        margin-top: 78px;
+        margin-bottom: 29px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .content_main>h4 {
+        margin-top: 53px;
+        margin-bottom: 22px;
+        font-size: 14px;
+    }
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    gap: 21px;
+}
+
+.row1 {
+    display: flex;
+}
+
+@media screen and (max-width: 375px) {
+    .row1 {
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .row {
+        flex-direction: column;
+        gap: 17px;
+    }
+}
+
+.col_5 {
+    width: 50%;
+    height: 1084px;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
+
+@media screen and (max-width: 375px) {
+    .col_5 {
+        width: 100%;
+        height: 302px;
+        aspect-ratio: 1;
+    }
+}
+
+.col_2 {
+    width: 25%;
+    height: 664px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 375px) {
+    .col_2 {
+        width: 73vw;
+        height: 345px;
+    }
+}
+
+.gap {
+    gap: 28px;
+}
+
+@media screen and (max-width: 375px) {
+    .gap {
+        gap: 15px;
+    }
+}
+
+.see_button {
+    border: 1px solid #707070;
+    width: fit-content;
+    margin-top: 42px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 397px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+@media screen and (max-width: 375px) {
+    .see_button {
+        width: 247px;
+        height: 30px;
+        font-size: 13px;
+    }
+}
+
+.footer {
+    background: #fafafa 0% 0% no-repeat padding-box;
+    padding: 60.73px 0 95px 0;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 375px) {
+    .footer {
+        padding: 51.6px 115.9px 69.5px 115.9px;
+        flex-direction: column;
+    }
+}
+
+.m_right {
+    margin-right: 286.5px;
+    align-items: center;
+    height: fit-content;
+}
+
+@media screen and (max-width: 375px) {
+    .m_right {
+        margin-right: 0px;
+        align-items: center;
+        margin-bottom: 76.66px;
+        justify-content: center;
+    }
+}
+
+.f_menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 375px) {
+    .f_menu {
+        flex-direction: column;
+    }
+}
+
+.menu_item {
+    display: flex;
+    flex-direction: column;
+    margin-right: 251px;
+}
+
+@media screen and (max-width: 375px) {
+    .menu_item {
+        margin-right: 0px;
+        padding-bottom: 17.5px;
+        padding-top: 9.5px;
+        border-bottom: 1px solid #dfdfdf;
+    }
+}
+
+.menu_item:last-child {
+    margin-right: 0;
+}
+
+.menu_item>p {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Jost";
+    color: #000000;
+    margin-bottom: 19px;
+}
+
+@media screen and (max-width: 375px) {
+    .menu_item>p {
+        font-size: 18px;
+    }
+}
+
+.menu_item>ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 375px) {
+    .menu_item>ul {
+        display: none;
+    }
+}
+
+.menu_item>ul>li {
+    font-size: 21px;
+    text-align: center;
+    font-family: "Jost";
+    letter-spacing: 0px;
+    margin-bottom: 19px;
+    color: #000000;
+}
