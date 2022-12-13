@@ -74,7 +74,7 @@
     width: 27px;
     height: 3px;
     background-color: #000000;
-    margin-bottom: 9px;
+    margin-bottom: 5px;
 }
 
 .hidden_menu>span:last-child {
@@ -244,12 +244,12 @@ button {
 
 .content_main {
     overflow: hidden;
-    margin: 4.6% 7.5% 6.7% 7.5%;
+    padding: 4.6% 7.5% 6.7% 7.5%;
 }
 
 @media screen and (max-width: 678px) {
     .content_main {
-        margin: 47px 38px 83px 35px;
+        padding: 47px 38px 83px 35px;
     }
 }
 
@@ -479,7 +479,7 @@ button {
 .menu_item {
     display: flex;
     flex-direction: column;
-    margin-right: 250px;
+    margin-right: 150px;
 }
 
 @media screen and (max-width: 1440px) {
@@ -522,7 +522,7 @@ button {
     flex-direction: column;
 }
 
-@media screen and (max-width: 678px) {
+@media screen and (max-width: 1200px) {
     .menu_item>ul {
         display: none;
     }
